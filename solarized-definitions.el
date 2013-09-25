@@ -235,7 +235,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (isearch (,@fmt-stnd ,@fg-orange ,@bg-back)) ; IncSearch
                 (isearch-fail (,@fmt-stnd ,@fg-orange ,@bg-back)) ; IncSearch
                 (lazy-highlight (,@fmt-revr ,@fg-yellow ,@bg-back)) ; Search
-                (link (,@fmt-undr ,@fg-violet))
+                (link (,@fmt-undr ,@fg-blue))
                 (link-visited (,@fmt-undr ,@fg-magenta))
                 (match ((t (,@fmt-revr ,@fg-yellow ,@bg-back)))) ; Occur
                 (menu (,@fg-base0 ,@bg-base02))
@@ -270,7 +270,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (custom-group-tag (,@fg-base1))
                 (custom-group-tag-1 (,@fmt-bold ,@fg-base1))
                 (custom-invalid (,@fmt-revr ,@fg-red ,@bg-back))
-                (custom-link (,@fg-violet))
+                (custom-link (,@fg-blue))
                 (custom-state (,@fg-green))
                 (custom-variable-tag (,@fg-base1))
                 ;; diff - DiffAdd, DiffChange, DiffDelete, and DiffText
